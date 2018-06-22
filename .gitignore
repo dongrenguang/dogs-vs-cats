@@ -103,5 +103,7 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+# very large dataset
 dataset-mini/
-dataset
+dataset/
+extra-dataset/
