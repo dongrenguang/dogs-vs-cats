@@ -105,7 +105,5 @@ venv.bak/
 
 # very large dataset
 dataset*/
-extra-dataset/
 
 *.h5
-*.npy
