@@ -14,10 +14,6 @@ $ pip install tensorflow keras scikit-learn opencv-python tqdm h5py numpy pandas
 $ wget https://www.kaggle.com/c/3362/download/train.zip
 
 $ wget https://www.kaggle.com/c/3362/download/test1.zip
-
-$ unzip train.zip
-
-$ unzip test1.zip
 ```
 
 # 下载模型
