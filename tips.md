@@ -8,11 +8,18 @@ $ source ~/.bashrc
 
 $ pip install tensorflow keras scikit-learn opencv-python tqdm h5py numpy pandas
 ```
+# 下载代码
+```
+$ git clone https://github.com/dongrenguang/dogs-vs-cats.git
+```
 
 # 下载图片
 ```
-$ wget https://www.kaggle.com/c/3362/download/train.zip
+$ git clone https://github.com/dongrenguang/dogs-vs-cats-dataset.git
 
+or
+
+$ wget https://www.kaggle.com/c/3362/download/train.zip
 $ wget https://www.kaggle.com/c/3362/download/test1.zip
 ```
 
