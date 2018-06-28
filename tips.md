@@ -1,4 +1,10 @@
-# 安装环境
+# 登录AWS
+```
+$ chmod 777 [***].pem
+$ ssh -i seoul.pem ubuntu@[ip]
+```
+
+# 安装Anaconda
 > python3
 
 ```
@@ -8,17 +14,17 @@ $ ./Anaconda3-5.2.0-Linux-x86_64.sh
 $ source ~/.bashrc
 
 # 安装 python 包
-pip install tensorflow
-pip install Keras
-pip install scikit-learn
-pip install opencv-python
-pip install tqdm
-pip install h5py
-pip install numpy
-pip install pandas
+$ pip install -r requirements.txt
+```
+
+# 设置Git
+```
+$ git config --global user.name "dongrenguang"
+$ git config --global user.email "dongrenguang@gmail.com"
 ```
 
 # 设置Jupyter notebook
+
 ```
 $ cd ~
 $ jupyter notebook --generate-config
