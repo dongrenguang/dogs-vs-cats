@@ -105,5 +105,3 @@ venv.bak/
 
 # very large dataset
 dataset*
-
-*.h5
