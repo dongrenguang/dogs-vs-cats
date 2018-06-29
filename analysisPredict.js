@@ -15,14 +15,18 @@ const dis = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 list.forEach(item => {
     const [id, score] = item.split(',');
 
-    for (let i = 0; i < 10; i++) {
-        if (score > 0.1 * i && score <= 0.1 * (i + 1)) {
-            dis[i] += 1;
-        }
-    }
+    // for (let i = 0; i < 10; i++) {
+    //     if (score > 0.1 * i && score <= 0.1 * (i + 1)) {
+    //         dis[i] += 1;
+    //     }
+    // }
 
-    if (score == 0) {
-        dis[0] += 1;
+    // if (score == 0) {
+    //     dis[0] += 1;
+    // }
+
+    if (score > 0.4 && score < 0.6) {
+        console.log(item);
     }
 });
 console.log(dis);
