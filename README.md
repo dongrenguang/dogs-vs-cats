@@ -2,7 +2,7 @@
 
 ## 软件依赖
 > 本项目基于 python 3
-- 
+
 - tensorflow：一个流行的深度学习框架
 - keras：是对诸如tensorflow、Theano等深度学习框架的高层封装
 - Xception模型：Google提出的一个优秀的卷积神经网络模型，本项目就是基于改模型进行了迁移学习
@@ -22,4 +22,4 @@
 为了方便获取我已经将数据集放在了[GitHub](https://github.com/dongrenguang/dogs-vs-cats-dataset)上。
 
 ## GitHub
-除了[数据集](https://github.com/dongrenguang/dogs-vs-cats-dataset)，我还讲本次项目的所有代码都放在了[GitHub](https://github.com/dongrenguang/dogs-vs-cats)上。
+除了[数据集](https://github.com/dongrenguang/dogs-vs-cats-dataset)，我还将本次项目的所有代码都放在了[GitHub](https://github.com/dongrenguang/dogs-vs-cats)上。
