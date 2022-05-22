@@ -10,9 +10,9 @@
 具体的可以参阅`requirements.txt`
 
 ## 运行项目
-在 python 3 环境下，安装完`requirements.txt`中所依赖的库就可以了。然后使用jupyter notebook打开。
+在 python 3 环境下，安装完`requirements.txt`中所依赖的库就可以了。然后使用jupyter notebook打开。
 
-本人使用了 AWS 的 p3.2x实例，最耗时的是特征提取，大约5分钟；训练（fit）则比较快，大概一秒钟一个 Epoch；预测也很快，大概5秒钟。
+本人使用了 AWS 的 p3.2x实例，最耗时的是特征提取，大约5分钟；训练（fit）则比较快，大概一秒钟一个 Epoch；预测也很快，大概5秒钟。
 
 项目的实际运行效果截图参看提交的压缩包文件。
 
